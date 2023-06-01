@@ -17,9 +17,10 @@ public class Ex11 {
 		b = (int)(Math.random()*range+start);
 		c = (int)(Math.random()*range+start);
 		
+	
 		
 		// 1부터 10까지의 정수를 랜덤으로 뽑아오는데 세 개의 수가 서로 겹치지 않도록 출력
-		
+		System.out.println("내 풀이");
 		while (true) {
 			
 			if (a==b || b==c || a==c) {
@@ -32,6 +33,19 @@ public class Ex11 {
 			
 		}
 		
+		System.out.println();
+		System.out.println();
+		System.out.println("선생님 풀이");
+		
+		
+		while (a==b || b==c || a==c) {
+			a = (int)(Math.random()*range+start);
+			b = (int)(Math.random()*range+start);
+			c = (int)(Math.random()*range+start);
+			
+			
+		}
+		System.out.printf("%d, %d, %d", a, b, c);
 		
 	}
 }
